@@ -1,0 +1,39 @@
+@media (max-width:479.98px){
+    .central{
+        width:479.99px !important;
+    }
+    .containers{
+        justify-content: center;
+        cursor: pointer;
+    }
+    .Ajuda{
+        cursor: pointer;
+        display: block;
+        align-content: center;
+    }
+    .container{
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0 5%;
+    }
+    .containers{
+        cursor: pointer;
+        display: block;
+        align-content: center;
+    }
+    .central .Ajudas{
+        width: 330;
+        height: 100;
+    }
+    .banner .banner-text h1{
+        font-size: 34px;
+        margin: 18px 0;
+    }
+    .Ajuda{
+        flex-direction: column;
+        width: 15%;
+    }
+    .containers{
+        flex-direction: column;
+    }
+}
