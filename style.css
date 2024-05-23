@@ -1,0 +1,147 @@
+@media (min-width: 600px) and (max-width:1200px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    }
+}
+img{
+    width: 300px;
+    margin: 0 auto;
+    padding: 0 5%;
+
+}
+section, footer{
+    padding: 54px 0;
+}
+h3{
+    font-size: 50px;
+}
+p{
+    color: #000000;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav img{
+    width: 100px;
+    height: 110px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+    color: #ffffff;
+    margin: 0 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+nav ul a::after{
+    content: "";
+    background-color: #1b11a1;
+    height: 3px;
+    width: 0%;
+    display: block;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+nav ul a:hover::after{
+    width: 100%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner .banner-text{
+    margin: 70px;
+    text-align: center;
+    padding: 0 90px;
+}
+.banner .banner-text h1{
+    font-size: 66px;
+    color:#ffffff;
+    font-weight: lighter;
+    margin: 18px 0;
+    color: black; /* Cor do texto */
+    text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white; /* Bordas brancas */
+}
+.btn-entre{
+    background-color: rgb(49, 102, 201);
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+h2{
+    font-size: 70px;
+}
+.central{
+    display: flex;
+    justify-content: center;
+}
+.central .container{
+    margin: 70px;
+    text-align: center;
+    padding: 0 90px;
+}
+.Ajuda{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    cursor: pointer;
+}
+.containers{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    cursor: pointer;
+}
+.central .Ajudas{
+    background-color: #205678;
+    margin: 15px;
+    border-radius: 25px;
+    text-align: center;
+    width: 550px;
+    height: 150px;
+    transition: 0.3s;
+}
+.central .Ajudas:hover{
+    background-color: #7f8791;
+    margin-top: -5px;
+}
+.central .nome{
+    font-weight: 800;
+    font-size: 30px;
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.central .depoimento{
+    font-size: 17px;
+    padding: 0 20px;
+    color: #000000;
+    margin: 10px;
+}
